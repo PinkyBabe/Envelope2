@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pangit Ka</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<audio controls autoplay style="display: none;">
+        <source src="rizz.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Hi Crush.</strong>
+                        <p>
+                            Kung ang bisaya sa coconut kay lubi, akoa nalang ka bi.
+                        </p>
+                        <img class="pic" src="https://tse4.mm.bing.net/th?id=OIP.HW17EM7udC4eQKDMHBLOBwHaFj&pid=Api&P=0&h=220" alt="missu.img">
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
